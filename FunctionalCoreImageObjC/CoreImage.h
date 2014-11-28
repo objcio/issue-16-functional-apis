@@ -6,15 +6,7 @@
 //  Copyright (c) 2014 objc.io. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface CIFilter (FunctionalCoreImageObjC)
-
-+ (instancetype)filterWithName:(NSString *)name parameters:(NSDictionary *)parameters;
-
-@property (readonly) CIImage *outputImage;
-
-@end
+@import UIKit;
 
 typedef CIImage *(^Filter)(CIImage *);
 

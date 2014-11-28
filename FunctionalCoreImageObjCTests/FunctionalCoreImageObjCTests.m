@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 objc.io. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <XCTest/XCTest.h>
+@import UIKit;
+@import XCTest;
 
 @interface FunctionalCoreImageObjCTests : XCTestCase
 
