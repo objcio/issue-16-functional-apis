@@ -18,4 +18,4 @@ Filter compositeSourceOver(CIImage *overlay);
 
 Filter colorOverlay(UIColor *color);
 
-Filter compose(Filter filter1, Filter filter2);
+Filter composeFilters(Filter filter1, Filter filter2);

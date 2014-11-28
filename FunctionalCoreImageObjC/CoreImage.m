@@ -47,6 +47,6 @@ Filter colorOverlay(UIColor *color) {
 
 
 
-Filter compose(Filter filter1, Filter filter2) {
+Filter composeFilters(Filter filter1, Filter filter2) {
     return ^(CIImage *img) { return filter2(filter1(img)); };
 }

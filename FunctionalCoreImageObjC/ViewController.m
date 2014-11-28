@@ -24,7 +24,7 @@
     CGFloat blurRadius = 5.0;
     UIColor *overlayColor = [[UIColor redColor] colorWithAlphaComponent:0.2];
     
-    Filter myFilter = compose(blur(blurRadius), colorOverlay(overlayColor));
+    Filter myFilter = composeFilters(blur(blurRadius), colorOverlay(overlayColor));
     CIImage *result = myFilter(image);
     
     self.imageView.image = [UIImage imageWithCIImage:result];
