@@ -60,6 +60,7 @@
 		0792EB1B1A280F9100B87585 /* CoreImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CoreImage.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		0792EB1C1A280F9100B87585 /* CoreImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreImage.m; sourceTree = "<group>"; };
 		0792EB1E1A28A6CA00B87585 /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
+		07ADA7F51A2900A200E20AD2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		17F227DA19C07CAE000401F1 /* FunctionalCoreImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalCoreImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F227DE19C07CAE000401F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17F227DF19C07CAF000401F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +154,7 @@
 		17F227D119C07CAE000401F1 = {
 			isa = PBXGroup;
 			children = (
+				07ADA7F51A2900A200E20AD2 /* README.md */,
 				17F227DC19C07CAE000401F1 /* FunctionalCoreImage */,
 				17F227F219C07CAF000401F1 /* FunctionalCoreImageTests */,
 				0792EAF61A280F1600B87585 /* FunctionalCoreImageObjC */,
