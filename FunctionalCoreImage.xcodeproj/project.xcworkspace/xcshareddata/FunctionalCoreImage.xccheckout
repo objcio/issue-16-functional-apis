@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EE485938-4892-43BA-AFD5-0F22C5548550</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FunctionalCoreImage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>346D2A145AB3EB21285C1D26CEF00B66CFE61726</key>
+		<string>https://github.com/etrep/issue-16-functional-apis.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FunctionalCoreImage.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>346D2A145AB3EB21285C1D26CEF00B66CFE61726</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/etrep/issue-16-functional-apis.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>346D2A145AB3EB21285C1D26CEF00B66CFE61726</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>346D2A145AB3EB21285C1D26CEF00B66CFE61726</string>
+			<key>IDESourceControlWCCName</key>
+			<string>issue-16-functional-apis</string>
+		</dict>
+	</array>
+</dict>
+</plist>
