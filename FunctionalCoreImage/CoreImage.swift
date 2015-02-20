@@ -12,31 +12,17 @@ typealias Filter = CIImage -> CIImage
 
 typealias Parameters = Dictionary<String, AnyObject>
 
-extension CIFilter {
-    
-    convenience init(name: String, parameters: Parameters) {
-        self.init(name: name)
-        setDefaults()
-        for (key, value : AnyObject) in parameters {
-            setValue(value, forKey: key)
-        }
-    }
-    
-    var outputImage: CIImage { return self.valueForKey(kCIOutputImageKey) as CIImage }
-    
-}
-
 func blur(radius: Double) -> Filter {
     return { image in
         let parameters : Parameters = [kCIInputRadiusKey: radius, kCIInputImageKey: image]
-        let filter = CIFilter(name:"CIGaussianBlur", parameters:parameters)
+        let filter = CIFilter(name:"CIGaussianBlur", withInputParameters:parameters)
         return filter.outputImage
     }
 }
 
 func colorGenerator(color: UIColor) -> Filter {
     return { _ in
-        let filter = CIFilter(name:"CIConstantColorGenerator", parameters: [kCIInputColorKey: CIColor(color: color)])
+        let filter = CIFilter(name:"CIConstantColorGenerator", withInputParameters: [kCIInputColorKey: CIColor(color: color)!])
         return filter.outputImage
     }
 }
@@ -47,7 +33,7 @@ func compositeSourceOver(overlay: CIImage) -> Filter {
             kCIInputBackgroundImageKey: image,
             kCIInputImageKey: overlay
         ]
-        let filter = CIFilter(name:"CISourceOverCompositing", parameters: parameters)
+        let filter = CIFilter(name:"CISourceOverCompositing", withInputParameters: parameters)
         return filter.outputImage.imageByCroppingToRect(image.extent())
     }
 }
